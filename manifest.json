@@ -1,7 +1,7 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 4,
     "name": "Video Volume + Inactivity Tracker",
-    "version": "1.2",
+    "version": "1.4.0",
     "permissions": ["storage", "tabs", "windows"],
     "action": {"default_popup": "popup.html"},
     "options_page": "options.html",
