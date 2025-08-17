@@ -3,7 +3,7 @@ const INACTIVITY_LIMIT = 5 * 60 * 1000
 
 class AppLogger {
     static print(...args) {
-        console.log(new Date(), ...args);
+        // console.log(new Date(), ...args);
     }
 }
 
