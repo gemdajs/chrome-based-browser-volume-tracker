@@ -114,9 +114,9 @@ class ActivityTracker extends StorageManager {
     }
 
     init() {
-        ["mousemove", "keydown", "click", "scroll", "touchstart"].forEach(evt =>
+        ["mousemove", "keydown", "click", "scroll", "touchstart"].forEach(evt => {
             window.addEventListener(evt, this.resetTimer, { passive: true })
-        );
+        });
 
         setInterval(() => {
             if ((Date.now() - this.lastActivity) >= this.inactivityLimit) {
